@@ -5,7 +5,7 @@
   	<div id="container">
     	<div class="main_greeting">
         	<dl>
-                <dt>Welcome to Anyframe 5.2.0</dt>
+                <dt>Welcome to Anyframe 5.5.0</dt>
                 <dd>Congratulations! Anyframe application has been successfully installed. Anyframe is an open source project and application framework that provides basic architecture, common technical services, templates to help you develop web applications on the Java platform quickly and efficiently.</dd>
             </dl>
         </div>
@@ -23,20 +23,10 @@
                     <td>
                     	<ul>
                             <li><a href="<c:url value='/coreMovieFinder.do?method=list'/>">Core 1.0.4</a></li>
-                            <!--Add new menu here-->
-							<!--logging-menu-START-->
-							<li>Logging 1.0.1</li>
-							<!--logging-menu-END-->
-							<!--spring-menu-START-->
-							<li>Spring 1.0.1</li>
-							<!--spring-menu-END-->
-							<!--datasource-menu-START-->
-							<li>Datasource 1.0.1</li>
-							<!--datasource-menu-END-->
 							
-							<!--logback-menu-START-->
-							<li><a href="<c:url value='/logbackLoginView.do'/>">Logback 1.0.0</a></li>
-                            <!--logback-menu-END-->
+							<!--logback-configuration-START-->
+							<li><a href="<c:url value='/logbackLoginView.do'/>">Logback 1.0.1</a></li>
+                            <!--logback-configuration-END-->
                         </ul>
                     </td>
                 </tr>
