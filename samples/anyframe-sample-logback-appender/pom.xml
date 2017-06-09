@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.anyframe</groupId>
 	<artifactId>anyframe-sample-logback</artifactId>
-	<version>1.1.0</version>
+	<version>1.1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>anyframe-sample-logback</name>
 	<build>
@@ -38,7 +38,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>anyframe-maven-plugin</artifactId>
-				<version>2.2.3</version>
+				<version>2.2.0</version>
 				<dependencies>
 					<dependency>
 						<groupId>hsqldb</groupId>
@@ -85,7 +85,7 @@
 		<dependency>
 			<groupId>org.anyframe</groupId>
 			<artifactId>anyframe-core</artifactId>
-			<version>1.6.0</version>
+			<version>1.6.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.annotation</groupId>
